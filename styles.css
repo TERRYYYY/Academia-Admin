@@ -129,4 +129,20 @@
     cursor: pointer;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
 }
+
+.number{
+    font-size: 35px;
+    font-weight: 500;
+    color: #299B63;
+}
+
+.card-name{
+    color: #888;
+    font-size: 600;
+}
+
+.icon-box i{
+    font-size: 45px;
+    color: #299B63;
+}
 /* END OF ADMIN PANEL  */
