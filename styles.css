@@ -124,7 +124,7 @@
     display: flex;
     justify-content: space-between;
     background: #fff;
-    padding: 35px;
+    padding: 25px;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
@@ -146,3 +146,22 @@
     color: #299B63;
 }
 /* END OF ADMIN PANEL  */
+
+/* Charts section styling */
+.charts{
+    display: grid;  
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.chart{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    width: 100%;
+}
+/* End of Charts section */
