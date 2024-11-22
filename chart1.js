@@ -5,7 +5,7 @@ const ctx = document.getElementById('lineChart');
     data: {
       labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
       datasets: [{
-        label: '# of Votes',
+        label: 'Earnings (Past 12 months)',
         data: [2050, 1900, 1800, 2800, 2000, 2500, 2600, 2450, 1950, 2300, 2900, 2500],
         borderWidth: 1,
         backgroundColor: [
