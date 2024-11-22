@@ -167,3 +167,64 @@
     width: 100%;
 }
 /* End of Charts section */
+
+
+/* Responsiveness starts here  */
+@media(max-width: 1115px){
+    .sidebar{
+        width: 60px;
+    }
+    .main{
+        left: 60px;
+        width: calc(100% - 60px);
+    }
+}
+
+@media(max-width: 880px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .charts{ 
+        grid-template-columns: 1fr;
+    }
+
+    #doughnut-chart{
+        padding: 50px;
+    }
+    #doughnut{
+        padding: 50px;
+    }
+}
+
+@media(max-width: 480px){
+    .topbar{
+        grid-template-columns: 1fr 5fr 0.4fr 1fr;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .logo h2{
+        font-size: 20px;
+    }
+    .search{
+        width: 80%;
+    }
+    .search input{
+        padding: 0 20px;
+    }
+    .fa-bell{
+        margin-right: 5px;
+    }
+    .user{
+        width: 40px;
+        height: 40px;
+    }
+    #doughnut-chart{
+        padding: 10px;
+    }
+    #doughnut{
+        padding: 0px;
+    }
+}
+/* End of Responsiveness */
