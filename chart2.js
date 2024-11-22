@@ -6,7 +6,7 @@ const ctx = document.getElementById('doughnut').getContext('2d');
       labels: ['Academic', 'Non-academic', 'Administrator', 'Others'],
       datasets: [{
         label: 'Employees',
-        data: [42, 12, 8, 6, 2000, 2500, 2600, 2450, 1950, 2300, 2900, 2500],
+        data: [42, 12, 8, 6],
         borderWidth: 1,
         backgroundColor: [
           'rgba(41, 155, 99, 1)',

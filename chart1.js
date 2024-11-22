@@ -1,6 +1,6 @@
-const ctx = document.getElementById('lineChart');
+const ctx2 = document.getElementById('lineChart');
 
-  new Chart(ctx, {
+  new Chart(ctx2, {
     type: 'line',
     data: {
       labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
