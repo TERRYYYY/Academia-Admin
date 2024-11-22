@@ -94,6 +94,14 @@
     align-items: center;
 }
 
+.sidebar ul li:hover{
+    background: #fff;
+}
+
+.sidebar ul li:hover a{
+    color: #299B63;
+}
+
 .sidebar ul li a i{
     min-width: 60px;
     font-size: 24px;
@@ -129,6 +137,22 @@
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.cards .card:hover{
+    background: #299B63;
+}
+
+.cards .card:hover .number{
+    color: #fff;
+}
+
+.cards .card:hover .card-name{
+    color: #fff;
+}
+
+.cards .card:hover .icon-box{
+    color: #fff;
 }
 
 .number{
