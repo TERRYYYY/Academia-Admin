@@ -38,7 +38,7 @@ Here’s a preview of the user interface:
 ## 🚀 How to Run the Project
 -------------------------
 
-1.  git clone https://github.com/TERRYYYY/Coffee-Connect.git
+1.  git clone https://github.com/TERRYYYY/Academia-Admin.git
     
 2.  cd academia-admin
     
